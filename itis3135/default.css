@@ -27,7 +27,6 @@ p {
     margin-right: 150px;
     margin-left: 80px;
     color:aliceblue;
-
 }
 
 li{
@@ -63,6 +62,10 @@ center{
 div {
     text-align: center;
 }
+italic {
+    font-style: italic;
+    text-align: center;
+}
 figure {
     display: block;
     margin-block-start: 1em;
@@ -93,4 +96,7 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-  
+bottom-ending {
+    text-align: center;
+    font-style: italic;
+}
