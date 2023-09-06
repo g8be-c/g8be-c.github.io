@@ -5,6 +5,7 @@ body {
 main {
     margin-left: 100px;
 	margin-right: 100px;
+    font-size: 20px;
 }
 header, h1, h2, h3 {
     text-align: center;
@@ -15,32 +16,37 @@ header, footer
 	margin-top: 50px;
 	margin-bottom: 50px;
 	text-align: center;
+    font-size: 18px;
+}
+header {
+    border-bottom: 2px solid aliceblue;
 }
 p {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-    color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
     margin: auto;
     text-align: center;
-}
-ul, li{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
     color: aliceblue;
-    margin: auto;
+}
+li{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+    margin-left: 80px;
+    color: aliceblue;
+}
+ul {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 80px;
+    color: aliceblue;
 }
 footer {
     text-align: center;
+    border-top: 2px solid aliceblue;
 }
 figcaption {
     text-align: center;
@@ -89,3 +95,4 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
+  
