@@ -55,15 +55,7 @@ nav {
     font-family: 'Courier New', Courier, monospace;
     color:bisque
 }
-center{
-    text-align: center;
-    color:aliceblue;
-}
 div {
-    text-align: center;
-}
-italic {
-    font-style: italic;
     text-align: center;
 }
 figure {
@@ -96,7 +88,80 @@ a:link {
     background-color: transparent;
     text-decoration: underline;
   }
-bottom-ending {
-    text-align: center;
-    font-style: italic;
+
+  th, td { 
+    border-top-width: 2px; 
+    border-bottom-width: 2px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-color: black; 
+    border-style: solid;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+  }
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px;
 }
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody tr:nth-child(even) td {
+    background-color: #D6EEEE;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input[type="submit"],[type="reset"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    color: aliceblue;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  input, textarea {
+    background-color: #3b3b4f;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
