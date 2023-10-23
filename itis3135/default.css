@@ -165,3 +165,24 @@ input[type="submit"],[type="reset"] {
     display: block;
     margin: 0.5rem 0;
   }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 576px) {
+    .container {
+      width: 100%;
+      padding-left: 23px;
+      flex-direction: column-reverse;
+    }
+    .boxes {
+      width: 100%;
+    }
+  }
+  .calculator {
+    text-align: center;
+  }

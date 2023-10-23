@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="utf-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <title>gabe castillo's gassy cow | itis3135 | project 1 &#9824;</title>
+    <script src="scripts/survey.js"></script>
+</head>
+<body>
+    <header>
+        <div data-include="components/header.html"></div>
+    </header>
+        <main>
+            <h3>BYO intro!</h3>
+
+            <form id="infoForm">
+                <label>
+                    name: <input type="text" name="name" value="gabe">
+                </label>
+                <br>
+                <label>
+                    mascot: <input type="text" name="mascot" value="gassy cow">
+                </label>
+                <br>
+                <label>
+                    upload an image! <input type="file" name="image" accept=".png, .jpg">
+                </label>
+                <br>
+                <label>
+                    image caption: <input type="text" name="caption" value="at the beach...">
+                </label>
+                <br>
+                <label>
+                    personal background: <textarea name="personalBg">i was born in...</textarea>
+                </label>
+                <br>
+                <label>
+                    professional background: <textarea name="professionalBg">i have 3 years experience in...</textarea>
+                </label>
+                <br>
+                <label>
+                    academic background: <textarea name="academicBg">i go to school at...</textarea>
+                </label>
+                <br>
+                <label>
+                    background in web development: <textarea name="webDevBg">i know java, css...</textarea>
+                </label>
+                <br>
+                <label>
+                    primary computer platform: <input type="text" name="platform" value="macOS...">
+                </label>
+                <br>
+                <div id="coursesContainer">
+                    <label>
+                        the classes i am currently taking are: 
+                        <button type="button" onclick="removeCourse(0)" style="display: none;">Delete</button>
+                    </label>
+                </div>
+                <br>
+                <button type="button" onclick="addCourse()">add course</button>
+                <br>
+                <label>
+                    anything funny to say? <input type="text" name="funnyThing" value="your mom">
+                </label>
+                <br>
+                <label>
+                    anything else? <textarea name="anythingElse">i love food!</textarea>
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="agreement">
+                    I understand that what is on this page is not password protected and I will not put anything here that I don’t want publicly available.
+                </label>
+                <br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+    
+            <div id="output"></div>
+    
+    </main>
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+    <script src="scripts/include.js"></script>
+    
+</body>
+</html>
+

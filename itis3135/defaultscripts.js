@@ -38,6 +38,12 @@ function numberInfo() {
     if (document.getElementById("number").value == 10 || document.getElementById("number").value == -10) {
         alert("decagon");
     }
+    if (document.getElementById("number").value >= 11) {
+        alert("too big! a wackygon!");
+    }
+    if (document.getElementById("number").value < 0) {
+        alert("too small! a wackygon!");
+    }
 }
 function testScores() {
     var entry;
