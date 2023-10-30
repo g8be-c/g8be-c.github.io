@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <title>gabe castillo's gassy cow | itis3135 | arrays &#9824;</title>
+    <script src="scripts/arrays.js"></script>
+</head>
+<body>
+ <header>
+    <div data-include="components/header.html"></div>
+ </header>
+        <main>
+        <div>         
+            <h2>Add Salary</h2>
+            <label>Enter Name : <input type="text" id="name" required autofocus><span id="namenull"></span></label> <br>
+            <label>Enter Salary : <input type="number" id="salary" required><span id="salarynull"></span></label><br>         
+            <button onclick="addSalary()">Add Salary</button>     
+        </div>     
+            <hr>     
+        <div>         
+            <h2>Display Salary</h2>         
+            <button onclick="displaySalary()">Display Salary</button>         
+            <table id="result_table"></table>     
+        </div>     
+            <hr>     
+        <div>         
+            <h2>Display Result</h2>         
+            <button onclick="displayResults()">Display Result</button>         
+            <div id="results"></div>     
+        </div>     
+            <hr>     
+        <div>         
+            <h2>Display Employees</h2>         
+            <button onclick="displayEmployees()">Display Employees In Dropdown</button><br>         
+            <select id="employees"></select>     
+        </div> 
+    </main> 
+    <footer>
+        <div data-include="components/footer.html"></div>
+    </footer>
+        <script src="scripts/include.js"></script>
+     </body>
